@@ -1,0 +1,140 @@
+﻿  main.cpp
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(12,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(12,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(25,14): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(45,45): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(45,31): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(47,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(72,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(78,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(94,34): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(93,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(100,34): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(99,78): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(106,34): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(105,78): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(124,108): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(124,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(155,113): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(155,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(199,113): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(199,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(210,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\main.cpp(210,33): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Mygame.vcxproj -> C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\x64\Debug\Mygame.exe

@@ -1,0 +1,6 @@
+df 151
+maokla 150
+test01 142
+0 105
+maokla 95
+ 0
