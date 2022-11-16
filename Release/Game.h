@@ -120,12 +120,21 @@ private:
 	//--------------------- sound ------------------------
 	SoundBuffer buffer;
 	Sound sound;
+
 	SoundBuffer coinBf;
 	Sound coinsound;
+
 	SoundBuffer damageBf;
 	Sound damagesound;
+
 	SoundBuffer diverBf;
 	Sound diversound;
+
+	SoundBuffer sharkBf;
+	Sound sharksound;
+
+	SoundBuffer lv2Bf;
+	Sound lv2sound;
 	//---------------------------------------------------
 	
 public:

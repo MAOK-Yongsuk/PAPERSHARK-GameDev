@@ -24,27 +24,35 @@ Game::Game(RenderWindow* window)
 	this->speed = -1.0f;
 	//--------- sound ---------------------------------------------
 	buffer.loadFromFile("Sound/underwater.wav");	
-	sound.setBuffer(buffer);	
+	sound.setBuffer(buffer);
+	sound.setVolume(30);
 	sound.play();
 	sound.setLoop(true);
 
 	diverBf.loadFromFile("Sound/diver.wav");
 	diversound.setBuffer(diverBf);
-	diversound.setVolume(10);
+	diversound.setVolume(5);
 	diversound.play();
 	diversound.setLoop(true);
 
+	sharkBf.loadFromFile("Sound/shark.wav");
+	sharksound.setBuffer(sharkBf);
+	sharksound.setVolume(25);
+	sharksound.play();
+	sharksound.setLoop(true);
+
 	coinBf.loadFromFile("Sound/coin.wav");
 	coinsound.setBuffer(coinBf);
-	coinsound.setVolume(30);
+	coinsound.setVolume(20);
 
 	damageBf.loadFromFile("Sound/damage.wav");
 	damagesound.setBuffer(damageBf);
-	damagesound.setVolume(30);
+	damagesound.setVolume(20);
 
-	damageBf.loadFromFile("Sound/damage.wav");
-	damagesound.setBuffer(damageBf);
-	damagesound.setVolume(30);
+	lv2Bf.loadFromFile("Sound/lv2.wav");
+	lv2sound.setBuffer(lv2Bf);
+	lv2sound.setVolume(40);
+
 	//-------------------------------------------------------------------
 	Game_clock.restart();
 	//------------------------ Init Font ------------------------------------
@@ -252,7 +260,6 @@ void Game::initWorld()
 	this->shadow.setTexture(this->shadowtex);
 	this->shadow.setScale(1.07, 1);
 	this->shadow.setPosition(-31, 0);
-	
 }
 
 void Game::UpdateUI()
@@ -318,6 +325,7 @@ void Game::Update(const float &dt)
 			//HammerShark level.2
 			this->HumSharkloading.setTexture(this->HumSharkloadingtex);
 			this->HumSharkloading.setPosition(1500, -300);
+			lv2sound.play();
 			stoptime1 = GameTime.asSeconds();				
 			londingS = 2;
 			speed -= 0.15f;
@@ -336,6 +344,7 @@ void Game::Update(const float &dt)
 					this->annoy01.setPosition(1800, 30);
 					annoytime += rand() % 30 + 15;
 					stoptime2 = GameTime.asSeconds();
+					lv2sound.play();
 				}
 				else {
 					this->annoy02.setTexture(this->annoy02tex);
