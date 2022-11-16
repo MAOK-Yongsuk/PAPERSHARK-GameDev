@@ -68,7 +68,7 @@ void Player::Movement(Vector2u windowBounds,const float& dt)
 	// left
 	if (Keyboard::isKeyPressed(Keyboard::A))
 	{
-		this->direction.x = -0.5f;
+		this->direction.x = -0.4f;
 		this->direction.y = 0.f;
 
 		if (this->currentVelocity.x > -this->maxVelocity && this->direction.x < 0)
@@ -78,7 +78,7 @@ void Player::Movement(Vector2u windowBounds,const float& dt)
 	// right
 	if (Keyboard::isKeyPressed(Keyboard::D))
 	{
-		this->direction.x = 0.5f;
+		this->direction.x = 0.3f;
 		this->direction.y = 0.f;
 
 		if (this->currentVelocity.x < this->maxVelocity && this->direction.x > 0)

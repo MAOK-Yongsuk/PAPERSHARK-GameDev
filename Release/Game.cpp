@@ -460,14 +460,14 @@ void Game::Update(const float &dt)
 					this->enemies.push_back(Enemy(
 						&this->textures[bigsquid], this->window->getSize(),
 						Vector2f(0.f, 0.f),
-						Vector2f(speed, 0.f), Vector2f(1.f, 1.f), 0, 2, 1));
+						Vector2f(speed, 0.f), Vector2f(0.95f, 0.95f), 0, 2, 1));
 				}
 				else if (rand() % 3 + 1 == 2 && activate == false)
 				{
 					this->enemies.push_back(Enemy(
 						&this->textures[submarine], this->window->getSize(),
 						Vector2f(0.f, 0.f),
-						Vector2f(speed, 0.f), Vector2f(0.7f, 0.7f), 0, 3, 3));
+						Vector2f(speed, 0.f), Vector2f(0.65f, 0.65f), 0, 3, 3));
 				}
 			}
 			
@@ -523,7 +523,6 @@ void Game::Update(const float &dt)
 									Vector2f(this->players[k].getProsition().x + 100.f,
 										this->players[k].getProsition().y - 50.f), 28));
 						}
-
 						
 						if (!this->players[k].isAlive())
 						{

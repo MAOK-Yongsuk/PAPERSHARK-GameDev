@@ -17,7 +17,7 @@ Enemy::Enemy(Texture *texture, Vector2u windowBounds,
 	this->windowBounds = windowBounds;
 
 	this->direction = direction;
-	this->sprite.setPosition(windowBounds.x, (rand() % windowBounds.y) + this->sprite.getGlobalBounds().height);
+	this->sprite.setPosition(windowBounds.x, (rand() % windowBounds.y) + (this->sprite.getGlobalBounds().height/2));
 
 	this->type = type;
 
