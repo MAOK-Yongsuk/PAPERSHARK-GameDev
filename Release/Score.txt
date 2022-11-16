@@ -1,5 +1,5 @@
-df 151
-maokla 150
-test01 142
-0 105
-maokla 95
+maok 150
+player1 40
+player2 30
+player3 20
+player4 10
