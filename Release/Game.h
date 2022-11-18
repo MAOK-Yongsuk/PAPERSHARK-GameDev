@@ -68,6 +68,9 @@ private:
 	Sprite shadow;
 	Texture shadowtex;
 
+	Sprite gameover;
+	Texture gameovertex;
+
 	// ------------ Loading Screen --------------------
 	
 	Sprite HumSharkloading;

@@ -37,7 +37,7 @@ Game::Game(RenderWindow* window)
 
 	sharkBf.loadFromFile("Sound/shark.wav");
 	sharksound.setBuffer(sharkBf);
-	sharksound.setVolume(25);
+	sharksound.setVolume(10);
 	sharksound.play();
 	sharksound.setLoop(true);
 
@@ -47,7 +47,7 @@ Game::Game(RenderWindow* window)
 
 	damageBf.loadFromFile("Sound/damage.wav");
 	damagesound.setBuffer(damageBf);
-	damagesound.setVolume(20);
+	damagesound.setVolume(15);
 
 	lv2Bf.loadFromFile("Sound/lv2.wav");
 	lv2sound.setBuffer(lv2Bf);
@@ -141,6 +141,11 @@ void Game::InitUI()
 	this->ScoreText.setFillColor(sf::Color::Color(31, 78, 121, 255));
 	this->ScoreText.setCharacterSize(60);
 	this->ScoreText.setPosition(this->window->getSize().x / 2 - 170.f, this->window->getSize().y / 2);
+
+	this->gameovertex.loadFromFile("Textures/gameover.png");
+	this->gameover.setTexture(this->gameovertex);
+	this->gameover.setPosition(530,320);
+	this->gameover.setScale(1, 1);
 
 	// handUI
 	this->handtexUI[1].loadFromFile("Textures/hand2.png");
@@ -319,7 +324,8 @@ void Game::Update(const float &dt)
 			this->shipwreck.setPosition(1900, 150);
 			stoptime1 = GameTime.asSeconds();			
 			londingS = 3;
-			speed -= 0.16f;
+			speed -= 0.12f;
+			enemySpawnTimerMax -= 2;
 		}
 		else if (GameTime.asSeconds() >= lv2time && londingS == 1) {
 			//HammerShark level.2
@@ -329,7 +335,7 @@ void Game::Update(const float &dt)
 			stoptime1 = GameTime.asSeconds();				
 			londingS = 2;
 			speed -= 0.15f;
-			enemySpawnTimerMax -= 8;
+			enemySpawnTimerMax -= 6;
 		}
 				
 		if (GameTime.asSeconds() <= stoptime1 + 12) {
@@ -460,14 +466,14 @@ void Game::Update(const float &dt)
 					this->enemies.push_back(Enemy(
 						&this->textures[bigsquid], this->window->getSize(),
 						Vector2f(0.f, 0.f),
-						Vector2f(speed, 0.f), Vector2f(0.95f, 0.95f), 0, 2, 1));
+						Vector2f(speed, 0.f), Vector2f(0.8f, 0.8f), 0, 2, 1));
 				}
 				else if (rand() % 3 + 1 == 2 && activate == false)
 				{
 					this->enemies.push_back(Enemy(
 						&this->textures[submarine], this->window->getSize(),
 						Vector2f(0.f, 0.f),
-						Vector2f(speed, 0.f), Vector2f(0.65f, 0.65f), 0, 3, 3));
+						Vector2f(speed, 0.f), Vector2f(0.55f, 0.55f), 0, 3, 3));
 				}
 			}
 			
@@ -674,6 +680,7 @@ void Game::DrawUI()
 
 	if (this->playersAlive <= 0)
 	{
+		this->window->draw(this->gameover);
 		this->ScoreText.setString("Your Score: " + getscore);
 		this->window->draw(this->ScoreText);
 		this->window->draw(this->gameOverText);
@@ -700,22 +707,19 @@ void Game::Draw()
 		if (this->players[i].isAlive())
 		{			
 			this->players[i].Draw(*this->window);
+			this->sharks[i].Draw(*this->window);
+			
 		}
 	}
 
 	for (size_t i = 0; i < this->enemies.size(); i++)
 	{
-		this->enemies[i].Draw(*this-> window);
-	}
-
-	for (size_t j = 0; j < this->sharks.size(); j++)
-	{
-		this->sharks[j].Draw(*this->window);
+		this->enemies[i].Draw(*this->window);	
 	}
 
 	for (size_t i = 0; i < this->textTags.size(); i++)
 	{
-		this->textTags[i].Draw(*this->window);
+		this->textTags[i].Draw(*this->window);		
 	}
 					
 	this->window->draw(this->annoy01);

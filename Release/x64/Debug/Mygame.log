@@ -1,7 +1,55 @@
-﻿  Enemy.cpp
-C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Enemy.cpp(20,39): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+﻿  Game.cpp
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(102,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(138,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(143,95): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(154,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(159,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(168,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(173,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(178,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(183,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(188,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(193,45): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(198,44): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(205,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(210,54): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(210,48): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(210,37): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(212,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(240,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(249,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(266,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(372,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(622,22): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(624,55): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(624,49): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\Mygame\Game.cpp(624,38): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
           ]
   Mygame.vcxproj -> C:\Users\HP\OneDrive - KMITL\[-CE-KMITL65\Semester1\PRO-FUNDAMENTAL , PRO-PROJECT\ProJ-GameC++\Mygame\x64\Debug\Mygame.exe
