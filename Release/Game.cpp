@@ -25,7 +25,7 @@ Game::Game(RenderWindow* window)
 	//--------- sound ---------------------------------------------
 	buffer.loadFromFile("Sound/underwater.wav");	
 	sound.setBuffer(buffer);
-	sound.setVolume(30);
+	sound.setVolume(28);
 	sound.play();
 	sound.setLoop(true);
 
@@ -37,7 +37,7 @@ Game::Game(RenderWindow* window)
 
 	sharkBf.loadFromFile("Sound/shark.wav");
 	sharksound.setBuffer(sharkBf);
-	sharksound.setVolume(10);
+	sharksound.setVolume(18);
 	sharksound.play();
 	sharksound.setLoop(true);
 
@@ -246,7 +246,7 @@ void Game::initWorld()
 
 	//shipwreck level.3
 	this->shipwrecktex.loadFromFile("Textures/Level3.png");
-	this->shipwreck.setScale(0.9, 0.9);
+	this->shipwreck.setScale(0.85, 0.85);
 
 	// handVIP
 	this->handtex.loadFromFile("Textures/hand.png");
@@ -335,7 +335,7 @@ void Game::Update(const float &dt)
 			stoptime1 = GameTime.asSeconds();				
 			londingS = 2;
 			speed -= 0.15f;
-			enemySpawnTimerMax -= 6;
+			enemySpawnTimerMax -= 3;
 		}
 				
 		if (GameTime.asSeconds() <= stoptime1 + 12) {
